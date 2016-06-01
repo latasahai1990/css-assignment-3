@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body.background {
+  background: url(images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+div.transbox {
+  margin-top:0.5%;
+  margin-left:2%;
+  margin-right: 2%;
+  background-color:#99ccff;
+  border: 2px solid white;
+  opacity: 0.7;
+  border-radius:4px ;
+}
+
+div.transbox p {
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+}
+input:focus {
+  background-color: white;
+}
+
+textarea {
+  margin-left: 9%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+label {
+    /* Other styling.. */
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+    margin-left: 10px;
+    margin-top: 12px;
+
+}
+button { background-color:black;
+  color:white;
+  border-radius: 10px;
+  width: 100px;
+  margin-top: 20px;
+
+}
+</style>
+</head>
+<body class= "background">
+   <p style="color:white; margin-left:2%;font-family:verdana"> <b>Step 1: Your details </p>
+      <div class="transbox">
+      <p> Name <input type="text" name="first name" size="20%" height="88" placeholder="First and last name" style="margin-left:11%"></p>                  
+      </div>
+      <div class="transbox">
+        <p> Email <input type="email" name="first name" size="20%" placeholder ="example@domain.com" style=" margin-left:11%"></p>                  
+      </div>
+      <div class="transbox">
+        <p> Phone <input type="number" name="telephone number" size="20%" placeholder="e.g. +4475000000000" style="margin-left:11%"></p>                  
+      </div>
+    <p style="color:white; margin-left:2%;font-family:verdana"> <b>Step 1: Delivery address</p>
+      <div class="transbox">
+      <label> Address </label>
+      <textarea name="address" rows="6" cols="22" > </textarea>
+      </div>
+      <div class="transbox">
+                
+      <p>Post code<input type="text" name="first name" size="20%" style="margin-left:9.5%"></p>                  
+      </div>
+      <div class="transbox">
+        <p>Country <input type="email" name="first name" size="20%" style="margin-left:9.8%"></p>                  
+      </div>
+      <p style="color:white; margin-left:2%;font-family:verdana"> <b>Step 1: Card details</p>
+      <div>
+      <div class="transbox">
+
+        <p>Card type </p>
+        <form>
+        <input type="radio" name="visa" size="20%" style="margin-left:5%"> <img src="download.png" style="height:12px; width:15px;"> VISA <input type="radio" name="amex" size="20%" style="margin-left:2%"> <img src="amex.jpg" style="height:12px; width:15px">AmEx
+        <input type="radio" name="amex" size="20%" style="margin-left:2%"> <img src="mastercard.png" style="height:12px; width:15px">Mastercard
+        </form>               
+      </div>
+        <div class="transbox">
+        <p>Card number<input type="text" name="first name" size="20%" style="margin-left:8%"></p>                  
+      </div>
+      <div class="transbox">
+        <p>Security code <input type="email" name="first name" size="20%" style="margin-left:8%"></p>                  
+      </div>
+      <div class="transbox">
+        <p>Name on the card<input type="email" name="first name" size="20%" placeholder="exact name as on the card" style="margin-left:6%"></p>                  
+      </div>
+      
+      <div style="margin-left:20%">
+        <button> BUY IT! </button>               
+      </div>
+
+      </body>
+</html>
